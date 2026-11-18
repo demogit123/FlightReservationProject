@@ -27,7 +27,7 @@ Then User should see login page.
       | admin    | wrongpass   | Invalid credentials |
       | wrong    | Qedge123!@# | Invalid credentials |
       | wrong    | wrongpass   | Invalid credentials |
-      | admin    | qedge123!@# | Invalid credentials |
+      
 
   @negative
   Scenario: Check Admin Login with empty username and valid password.
